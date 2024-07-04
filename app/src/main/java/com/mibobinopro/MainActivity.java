@@ -1,4 +1,4 @@
-package com.mibobinopro.UI;
+package com.mibobinopro;
 
 import android.os.Bundle;
 

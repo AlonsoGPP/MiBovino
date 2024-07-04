@@ -1,3 +1,126 @@
 <resources>
     <string name="app_name">Mi Bobino</string>
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="SearchHere">Buscar aquí…</string>
+    <string name="home">Inicio</string>
+    <string name="profile">Usuario</string>
+    <string name="setting">Configuraciones</string>
+    <string name="purchased_date">Fecha de compra</string>
+    <string name="name">Nombre</string>
+    <string name="quantity">Cantidad</string>
+    <string name="prescribed_by">Prescrito por</string>
+    <string name="supplier">Proveedor</string>
+    <string name="reset">Restablecer</string>
+    <string name="save">Guardar</string>
+    <string name="update_medicine_details">Actualizar detalles del medicamento</string>
+    <string name="description">Descripción</string>
+    <string name="update_feed">Actualizar alimentación</string>
+
+    <!-- Cadenas para AddAnimalEvent -->
+    <string name="enter_event_date">Por favor, introduce la fecha del evento</string>
+    <string name="enter_animal_id">Por favor, introduce el ID del animal</string>
+    <string name="enter_event_name">Por favor, introduce el nombre del evento</string>
+    <string name="heat_detection">Detección de calor</string>
+    <string name="serves">Servicios</string>
+    <string name="weight_check">Control de peso</string>
+
+    <!-- Cadenas para AddAnimalFragment -->
+    <string name="enter_status">Por favor, ingrese el estado</string>
+    <string name="enter_reg_date">Por favor, ingrese la fecha de registro</string>
+    <string name="enter_dob">Por favor, ingrese la fecha de nacimiento</string>
+    <string name="enter_gender">Por favor, ingrese el género</string>
+    <string name="enter_breed">Por favor, ingrese la raza</string>
+    <string name="enter_sire">Por favor, ingrese el padre</string>
+    <string name="upload_error">Ocurrió un error al subir la imagen</string>
+    <string name="not_added">No Añadido</string>
+    <string name="add_error">Ocurrió un error. Intente de nuevo.</string>
+
+    <!-- Variables para evitar conflictos -->
+    <string name="status_born_on_farm">Nacido en la granja</string>
+    <string name="status_purchased">Comprado</string>
+    <string name="status_sold">Vendido</string>
+    <string name="status_death_on_farm">Muerte en la granja</string>
+
+    <string name="gender_male">Masculino</string>
+    <string name="gender_female">Femenino</string>
+
+    <!-- Cadenas para AddNewFarmTask -->
+    <string name="enter_task_date">Por favor, introduce la fecha de la tarea</string>
+    <string name="enter_task_name">Por favor, introduce el nombre de la tarea</string>
+    <string name="enter_task_status">Por favor, introduce el estado de la tarea</string>
+    <string name="task_date">Fecha de la tarea</string>
+    <string name="task_name">Nombre de la tarea</string>
+    <string name="task_status">Estado de la tarea</string>
+    <string name="task_desc">Descripción</string>
+    <string name="save_task">Guardar</string>
+    <string name="reset_task">Restablecer</string>
+    <string-array name="task_status_options">
+        <item>En progreso</item>
+        <item>Completada</item>
+        <item>No completada</item>
+    </string-array>
+
+    <!-- Cadenas para AddNewFertilizer -->
+    <string name="enter_date">Por favor, introduce la fecha</string>
+    <string name="enter_fertilizer_name">Por favor, introduce el nombre del fertilizante</string>
+    <string name="enter_quantity">Por favor, introduce la cantidad</string>
+    <string name="enter_additional_info">Por favor, introduce la información adicional</string>
+    <string name="enter_supplier">Por favor, introduce el proveedor</string>
+    <string name="enter_batch_number">Por favor, introduce el número de lote</string>
+    <string name="upload_image_error">Ocurrió un error al subir la imagen</string>
+    <string name="error_try_again">Ocurrió un error. Intente de nuevo.</string>
+    <string name="upload_image">Subir imagen</string>
+
+    <!-- Cadenas para AnimalEventFragment -->
+
+    <string name="warning">¡Advertencia!</string>
+    <string name="delete_event">¿Quieres eliminar este evento?</string>
+    <string name="delete">Eliminar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="undo">Deshacer</string>
+    <string name="undo_message">¿Quieres deshacer?</string>
+
+    <!-- Cadenas para las activitis -->
+
+    <!-- Cadenas para login activity -->
+
+    <string name="login">Iniciar sesión</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="sign_up">Registrarse</string>
+
+    <string name="toolbar_title">Principal</string>
+
+    <!-- Textos para la tarjeta médica -->
+    <string name="animal_id">ID del animal</string>
+    <string name="event_name">Nombre del evento</string>
+    <string name="event_date">Fecha del evento</string>
+    <string name="stock_bull">Tamaño stock</string>
+    <string name="note">Nota</string>
+
+    <string name="animal_id_value">12/12/2021</string>
+    <string name="event_name_value">medicina</string>
+    <string name="event_date_value">12</string>
+    <string name="stock_bull_value">@string/prescribed_by</string>
+    <string name="notes_value">@string/supplier</string>
+
+    <string name="add_new_animal">Agregar Nuevo Animal</string>
+    <string name="status">Estado</string>
+    <string name="register_date">Fecha de Registro</string>
+    <string name="animal_identifier">Identificador del Animal</string>
+    <string name="date_of_birth">Fecha de Nacimiento</string>
+    <string name="gender">Género</string>
+    <string name="breed">Raza</string>
+    <string name="sire">Padre</string>
+
+    <string name="notValidEmail">Porfavor ingrese su email</string>
+    <string name="failedImageUpload">Error al subir imagen</string>
+    <string name="notAdded">No se añadio</string>
+
+    <string name="notAuthorizhedMsg">No Tienes permisos</string>
+    <string name="wantUnDo">Quieres deshacer</string>
+    <string name="blank"></string>
+    <string name="my_animals">Mis Animales</string>
+
+
 </resources>

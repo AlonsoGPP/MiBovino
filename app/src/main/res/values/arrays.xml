@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="id_activityScreenTitles">
+        <item></item>
+        <item>Principal</item>
+        <item>Animales</item>
+        <item>Eventos</item>
+        <item>Tareas</item>
+        <item>Medicamento</item>
+        <item>Alimentación</item>
+
+        <item>Cierra Sesión</item>
+
+    </string-array>
+
+    <array name="id_activityScreenIcons">
+        <item>0</item>
+
+        <item>@drawable/home_icon</item>
+        <item>@drawable/myanimalicon</item>
+        <item>@drawable/animalhostoryicon</item>
+        <item>@drawable/farmtaskicon</item>
+        <item>@drawable/medicineicon</item>
+        <item>@drawable/feedicon</item>
+        <item>@drawable/logout</item>
+
+
+        <item>0</item>
+        <item>@drawable/ic_baseline_logout_24</item>
+    </array>
+</resources>
