@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/medical_card"
+        tools:ignore="UselessParent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/task"
+            app:cardCornerRadius="50dp" >
+            <ImageView
+                android:id="@+id/taskImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/task" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/animalId"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:text="@string/animal_id"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/animalIdValue"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/animalId"
+            android:text="@string/animal_id_value"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/eventName"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:text="@string/event_name"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/eventNameValue"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="40dp"
+            android:layout_toEndOf="@+id/eventName"
+            android:text="@string/event_name_value"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/eventDate"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:text="@string/event_date"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/eventDateValue"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="60dp"
+            android:layout_toEndOf="@+id/eventDate"
+            android:text="@string/event_date_value"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/stockBull"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:text="@string/stock_bull"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/stockBullValue"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="80dp"
+            android:layout_toEndOf="@+id/stockBull"
+            android:text="@string/stock_bull_value"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/notes"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:text="@string/note"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/notesValue"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="100dp"
+            android:layout_toEndOf="@+id/notes"
+            android:text="@string/notes_value"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+</RelativeLayout>
